@@ -1,6 +1,9 @@
 # DeveloperAlan's PreludeOS
 The janky carputer operating system for the 1992 Honda Prelude
 
+## What
+A carputer running on a Raspberry Pi hooked up to the car. Runs basic software such as Google Maps and Spotify on the Raspbian OS with a custom Electron/Rust application
+
 ## Why
 The Honda Prelude is a funky looking car. I particularly love the dashboard of the 4th generation Honda Prelude
 
