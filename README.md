@@ -1,15 +1,27 @@
 # DeveloperAlan's PreludeOS
-The janky carputer operating system for the 1992 Honda Prelude
 
-## What
-A carputer running on a Raspberry Pi hooked up to the car. Runs basic software such as Google Maps and Spotify on the Raspbian OS with a custom Electron/Rust application
+> The janky carputer operating system for the 1992 Honda Prelude
 
-## Why
-The Honda Prelude is a funky looking car. I particularly love the dashboard of the 4th generation Honda Prelude
+#### Build Setup
 
-![Image of the 4th gen Honda Prelude's Interior](http://www.japanesesportcars.com/photos/d/132539-1/1993-honda-prelude-3.jpg)
+``` bash
+# install dependencies
+npm install
 
-This gave me an idea to create an updated car interior experience. It seemed the car designers would like to have LCD screens on
-the electronic dashboard at the time, but unfortunately didn't have the technology to.
+# serve with hot reload at localhost:9080
+npm run dev
 
-Hence, the idea to create a modern dashboard on a forward thinking car of it's time was born.
+# build electron application for production
+npm run build
+
+# run unit & end-to-end tests
+npm test
+
+
+# lint all JS/Vue component files in `src/`
+npm run lint
+
+```
+
+---
+
